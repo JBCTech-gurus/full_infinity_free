@@ -7,3 +7,4 @@ mkdir -p ./dist
 php index.php > ./dist/index.html
 php success.php > ./dist/success.html
 # Add similar lines for other pages
+cp -r assets ./dist/assets
