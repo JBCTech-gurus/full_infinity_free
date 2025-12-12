@@ -1,4 +1,4 @@
-<?php require_once __DIR__ . 'inc/config.php'; $bundles = get_bundles(); ?>
+<?php require_once __DIR__ . '/inc/config.php'; $bundles = get_bundles(); ?>
 <!doctype html>
 <html lang="en">
 <head>
