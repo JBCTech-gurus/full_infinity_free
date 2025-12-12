@@ -1,0 +1,32 @@
+/* Styles for JOE.B.TECH Bundle Site */
+:root{--accent:#FF7A00;--accent-dark:#cc5a00;--navy:#072146;--muted:#667085}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Arial,sans-serif;background:#f7f9fc;color:#111;margin:0}
+.container{max-width:1000px;margin:18px auto;padding:0 16px}
+.site-header{background:linear-gradient(90deg,var(--accent),var(--accent-dark));color:#fff;padding:16px;border-radius:8px;margin-bottom:12px}
+.brand{display:flex;gap:12px;align-items:center}
+.logo{background:#fff;color:var(--accent);width:56px;height:56px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:800}
+.sitename{font-size:18px;font-weight:800}
+.tagline{opacity:.95;font-size:13px}
+.banner-warning{background:linear-gradient(90deg,#ff5a00,#cc2200);color:#fff;padding:16px;border-radius:8px;text-align:center;margin:6px 0}
+.banner-warning h2{margin:0;font-size:20px}
+.grid{display:grid;grid-template-columns:1fr 320px;gap:18px}
+.card{background:#fff;border-radius:12px;padding:16px;box-shadow:0 8px 24px rgba(7,33,70,0.06)}
+.main-card{min-height:280px}
+.side-card{position:sticky;top:18px}
+label{display:block;margin:10px 0 6px;color:var(--muted)}
+input[type=text],input[type=tel],select{width:100%;padding:10px;border:1px solid #e6eef6;border-radius:8px}
+.two-col{display:flex;gap:12px}
+.two-col > div{flex:1}
+.actions{display:flex;gap:10px;margin-top:12px}
+.btn{background:var(--accent);border:none;padding:10px 12px;border-radius:8px;cursor:pointer;color:#fff;font-weight:700}
+.pay-instr{background:#fff8f0;border-left:4px solid #ffb86b;padding:12px;border-radius:8px;margin-top:10px}
+.pay-number{font-weight:800;color:var(--navy)}
+.delivery-note{margin-top:18px;padding:14px;background:#fff7e6;border-left:4px solid var(--accent);border-radius:10px}
+.delivery-note h3{margin:0;color:var(--accent-dark)}
+.whatsapp{display:inline-block;margin-top:8px;background:#25D366;color:#fff;padding:10px 12px;border-radius:8px;text-decoration:none}
+.whatsapp.big{display:inline-block;padding:12px 16px;font-weight:700}
+.call-button{display:inline-block;margin-top:8px;background:#072146;color:#fff;padding:10px 12px;border-radius:8px;text-decoration:none;margin-left:8px}
+.muted{color:var(--muted)}
+.site-footer{padding:18px;text-align:center;color:#6b7a90;margin-top:18px}
+@media(max-width:900px){.grid{grid-template-columns:1fr}.two-col{flex-direction:column}.side-card{position:static}}
