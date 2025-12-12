@@ -1,4 +1,4 @@
 [build]
-  command = ""
-  publish = "."
+  command = "bash build.sh"
+  publish = "dist"
   functions = "api"
